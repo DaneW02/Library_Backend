@@ -18,7 +18,7 @@ public class TestDao {
                     "SHOW DATABASES;");
 
             while (resultSet.next()) {
-                databases.add(resultSet.getString("Database"));
+                databases.add(resultSet.getString("Library.sql"));
             }
         }
 
